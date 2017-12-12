@@ -1,0 +1,10 @@
+
+add_subdirectory(capstone EXCLUDE_FROM_ALL)
+if(CAPSTONE2LLVMIR_TESTS)
+	add_subdirectory(googletest)
+endif()
+if(CAPSTONE2LLVMIR_TESTS OR CAPSTONE2LLVMIR_TOOLS)
+	add_subdirectory(keystone EXCLUDE_FROM_ALL)
+endif()
+add_subdirectory(llvm)
+add_subdirectory(tl-cpputils)

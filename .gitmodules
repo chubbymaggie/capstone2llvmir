@@ -1,0 +1,15 @@
+[submodule "deps/capstone"]
+	path = deps/capstone
+	url = https://github.com/avast-tl/capstone
+[submodule "deps/googletest"]
+	path = deps/googletest
+	url = https://github.com/avast-tl/googletest
+[submodule "deps/keystone"]
+	path = deps/keystone
+	url = https://github.com/avast-tl/keystone
+[submodule "deps/llvm"]
+	path = deps/llvm
+	url = https://github.com/avast-tl/llvm
+[submodule "deps/tl-cpputils"]
+	path = deps/tl-cpputils
+	url = https://github.com/avast-tl/tl-cpputils
